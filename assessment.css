@@ -6,7 +6,7 @@ h4, h5, h6 {
 #scoreBoard thead th{
   color: darkorange;
   font-weight: bold;
-  border: 2px solid navy;
+  border: 2px solid green;
   align-items: center;
 }
 ul{
@@ -25,6 +25,7 @@ body blockquote {
   background-size:  auto;
   background-repeat:  no-repeat;
   background-position: left;
+  opacity: 0.5;
 
 }
 #teamRoster li:last-child ul{
@@ -32,6 +33,7 @@ body blockquote {
   background-size:  auto;
   background-repeat:  no-repeat;
   background-position: left;
+  opacity: 0.5;
 
 }
 #teamRoster li img {
@@ -43,4 +45,12 @@ body blockquote {
 }
 #teamRoster li ul ol li:first-child{
   font-weight: bold;
+}
+table tr:nth-child(odd) td{
+  border: 2px solid navy;
+
+}
+table tr:nth-child(even) td{
+  border: 2px solid green;
+
 }
